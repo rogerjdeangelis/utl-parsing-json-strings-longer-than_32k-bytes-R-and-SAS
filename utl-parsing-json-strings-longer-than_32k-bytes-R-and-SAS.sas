@@ -1,15 +1,21 @@
+
 Parsing json strings longer than 32k bytes
 
 Suppose the long json string is 48,000 characters and within the 48,000 byte string are
-fthree strings of 16,000 characters separated by '@'.
+three strings of 16,000 characters separated by '@'.
 
-Obviously the dumb json file below can we manually programmed to parse the long string.
-However suppose there are 30 more fields and some nesting in the jso file.
+Obviously, the dumb json file below can we manually programmed to parse the long string.
+However, suppose there are 30 more fields and some nesting in the jso nfile.
 
+github
+https://tinyurl.com/y333y8zl
+https://github.com/rogerjdeangelis/utl-parsing-json-strings-longer-than_32k-bytes-R-and-SAS
 
 SAS Forum
 https://tinyurl.com/y38p8oba
 https://communities.sas.com/t5/SAS-Programming/CSV-file-with-JSON-field-where-the-JSON-field-is-bigger-than-32K/m-p/573115
+
+
 
 
 *_                   _
