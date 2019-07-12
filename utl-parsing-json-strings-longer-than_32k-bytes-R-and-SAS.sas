@@ -4,7 +4,7 @@ Parsing json strings longer than 32k bytes
 Suppose the long json string is 48,000 characters and within the 48,000 byte string are
 three strings of 16,000 characters separated by '@'.
 
-Obviously, the dumb json file below can we manually programmed to parse the long string.
+Obviously, the dumb json file below can be manually programmed to parse the long string.
 However, suppose there are 30 more fields and some nesting in the jso nfile.
 
 github
